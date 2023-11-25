@@ -1,9 +1,21 @@
-body{
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
-main{
-    flex-grow:  1;
+main {
+  flex-grow: 1;
+}
+
+@media all and (max-width: 576px) {
+  .juego {
+    margin-top: 50%;
+  }
+}
+
+@media all and (min-width: 576px) and (max-width: 767px) {
+  .juego {
+    margin-top:30vh;
+  }
 }
